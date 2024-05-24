@@ -1,101 +1,131 @@
 :root {
-    --clr-primary: #231738;
-    --clr-secondary: #390553;
-    --clr-background: #f4f4f4;
-    --clr-text: #333;
-    --clr-text-light: #666;
-    --clr-shadow: rgba(0, 0, 0, 0.1);
-    --bd-radius: 5px;
-    --spacing: 10px;
-    --padding: 20px;
-  }
-  
-  body {
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: var(--clr-background);
-  }
-  
-  .header {
-    background-color: var(--clr-primary);
-    color: #ffffff;
-    padding: var(--padding);
-    text-align: center;
-    border-bottom: 5px solid var(--clr-secondary);
-  }
-  
-  .header h1 {
-    font-size: 36px;
-    margin: 0;
-  }
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: var(--padding);
-  }
-  
-  .social-links a {
-    margin: 0 var(--spacing);
-    color: var(--clr-text);
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-  
-  .social-links a:hover {
-    color: var(--clr-text-light);
-  }
-  
-  .about-me {
-    padding: var(--padding);
-    background-color: #fff;
-    color: var(--clr-text);
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px var(--clr-shadow);
-    border-radius: var(--bd-radius);
-  }
-  
-  .about-me h2 {
-    font-size: 24px;
-    margin-top: 0;
-  }
-  
-  .contact-form {
-    padding: var(--padding);
-    background-color: #fff;
-    color: var(--clr-text);
-    border: 1px solid #ddd;
-    box-shadow: 0 0 10px var(--clr-shadow);
-    border-radius: var(--bd-radius);
-    margin-top: 20px;
-  }
-  
-  .contact-form h2 {
-    font-size: 24px;
-    margin-top: 0;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: var(--spacing);
-    margin: var(--spacing) 0;
-    border: 1px solid #ccc;
-    border-radius: var(--bd-radius);
-  }
-  
-  .contact-form button {
-    padding: var(--spacing);
-    background-color: var(--clr-primary);
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: var(--bd-radius);
-  }
-  
-  .contact-form button:hover {
-    background-color: var(--clr-secondary);
-  }
+  --clr-primary: #231738;
+  --clr-secondary: #390553;
+  --clr-background: #f4f4f4;
+  --clr-text: #333;
+  --clr-text-light: #666;
+  --clr-shadow: rgba(0, 0, 0, 0.1);
+  --bd-radius: 5px;
+  --spacing: 10px;
+  --padding: 20px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--clr-background);
+}
+
+.header {
+  background-color: var(--clr-primary);
+  color: #ffffff;
+  padding: var(--padding);
+  text-align: center;
+  border-bottom: 5px solid var(--clr-secondary);
+}
+
+.header h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding);
+}
+
+.social-links a {
+  margin: 0 var(--spacing);
+  color: var(--clr-text);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: var(--clr-text-light);
+}
+
+.about-me {
+  padding: var(--padding);
+  background-color: #fff;
+  color: var(--clr-text);
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px var(--clr-shadow);
+  border-radius: var(--bd-radius);
+}
+
+.about-me h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.contact-form {
+  padding: var(--padding);
+  background-color: #fff;
+  color: var(--clr-text);
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px var(--clr-shadow);
+  border-radius: var(--bd-radius);
+  margin-top: 20px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: var(--spacing);
+  margin: var(--spacing) 0;
+  border: 1px solid #ccc;
+  border-radius: var(--bd-radius);
+}
+
+.contact-form button {
+  padding: var(--spacing);
+  background-color: var(--clr-primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: var(--bd-radius);
+}
+
+.contact-form button:hover {
+  background-color: var(--clr-secondary);
+}
+
+.circle-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  background-color: #dddd;
+  text-align: center;
+  font-size: 20px;
+}
+
+.circle-icon i {
+  line-height: inherit;
+}
+
+.certificates {
+  padding: var(--padding);
+  background-color: #fff;
+  color: var(--clr-text);
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px var(--clr-shadow);
+  border-radius: var(--bd-radius);
+  margin-top: 20px;
+}
+
+.certificates h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
