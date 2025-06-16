@@ -1,82 +1,95 @@
-<!-- <html>
-<head> <meta http-equiv="refresh" content="0;URL=http://vsco.co/siminonay">
- </head>
- <body>
-<div style="text-align:center;">Simin Onay</div>
-</body>
-</html> -->
-
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-/>
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simin Onay</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="17702995.jpeg" />
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
-  <body>
-    <div class="header">
-      <h1>Simin ONAY</h1>
-    </div>
-    <div class="social-links">
-      <a href="http://linkedin.com/in/siminonay">
-        <i class="fab fa-linkedin"> </i>
-      </a>
-      <a href="https://github.com/siminonay">
-        <i class="fab fa-github"> </i>
-      </a>
-      <a href="https://furryapp.net/">
-        <i class="fa fa-paw"> </i>
-      </a>
-    </div>
-    <div class="about-me">
-      <h2>About</h2>
-      <p>
-        Experienced software engineer with a demonstrated history of working in
-        the information technology and services industry. Skilled in different
-        frameworks and technologies within microservices, agile methodologies,
-        implementing flexible solutions, collaborating with developers and
-        customers. Solid understanding of full development lifecycle to produce
-        banking and telecommunications systems.
-      </p>
-      <div>
-        <a
-          href="https://drive.google.com/file/d/1GYmVy-zZVW2ISwLTAmnn5ghlYSzJuoWF/view?usp=drive_link"
-          target="_blank"
-          >Download Cv
-          <i class="fa fa-download"></i>
+
+  <body class="bg-gray-50 text-gray-800 font-sans antialiased">
+    <main class="max-w-4xl mx-auto py-12 px-6 flex flex-col items-center text-center">
+      <!-- Profile Image -->
+      <img src="17702995.jpeg" alt="Simin Onay" class="w-32 h-32 rounded-full shadow-lg mb-6" data-aos="fade-down" />
+
+      <!-- Name -->
+      <h1 class="text-4xl font-extrabold mb-2" data-aos="fade-up">Simin Onay</h1>
+
+      <!-- Short Bio -->
+      <p class="max-w-2xl text-gray-600 text-lg mb-8" data-aos="fade-up" data-aos-delay="100">
+        Experienced software engineer with a demonstrated history of working in the information technology and services industry. Skilled in different frameworks and technologies within microservices, agile methodologies, implementing flexible solutions, collaborating with developers and customers. Solid understanding of full development lifecycle to produce banking and telecommunications systems.      </p>
+
+      <!-- Links -->
+      <div class="flex flex-wrap justify-center gap-4 mb-12" data-aos="fade-up" data-aos-delay="200">
+        <a href="https://furryapp.net/" target="_blank" class="px-5 py-2 bg-white border border-gray-300 rounded-full shadow-sm hover:bg-black hover:text-white transition">
+          Furry App
+        </a>
+        <a href="http://linkedin.com/in/siminonay" target="_blank" class="px-5 py-2 bg-white border border-gray-300 rounded-full shadow-sm hover:bg-black hover:text-white transition">
+          LinkedIn
+        </a>
+        <a href="https://github.com/siminonay" target="_blank" class="px-5 py-2 bg-white border border-gray-300 rounded-full shadow-sm hover:bg-black hover:text-white transition">
+          GitHub
         </a>
       </div>
-    </div>
-    <div class="certificates">
-        <h2>Certificates</h2>
-        <a href="https://www.credly.com/users/simin-onay/badges">Credly
-        </a><br />
-        <a href="https://www.credential.net/profile/siminonay/wallet#gs.8fmar0">Accredible
-        </a><br />
-        <a href="https://www.cloudskillsboost.google/public_profiles/d510d439-afb7-4d4f-bd90-15635014405e">Google
-        </a><br />
-        <a href="https://skillsoft.digitalbadges-eu.skillsoft.com/profile/eu-siminonay446325/wallet#gs.8fiqpd">Skillsoft
-        </a>
-    </div>
-    <div class="contact-form">
-      <h2>Contact</h2>
-      <input type="text" placeholder="Name" id="name" />
-      <input type="text" placeholder="Surname" id="surname" />
-      <textarea placeholder="Message" id="message"></textarea>
-      <button onclick="sendEmail()">Send</button>
-    </div>
+
+      <!-- Certificates Section -->
+      <section class="w-full mb-16" data-aos="fade-up" data-aos-delay="300">
+        <h2 class="text-2xl font-bold mb-6">🎓 Certificates</h2>
+        <div class="grid gap-4 sm:grid-cols-2 text-left">
+          <a href="https://www.credly.com/users/simin-onay/badges" target="_blank" class="block bg-white p-4 rounded-xl shadow hover:shadow-md transition border">
+            🏅 <span class="font-medium text-blue-700 hover:underline">Credly Badges</span>
+          </a>
+          <a href="https://www.credential.net/profile/siminonay/wallet#gs.8fmar0" target="_blank" class="block bg-white p-4 rounded-xl shadow hover:shadow-md transition border">
+            🏅 <span class="font-medium text-blue-700 hover:underline">Accredible Certificates</span>
+          </a>
+          <a href="https://www.cloudskillsboost.google/public_profiles/d510d439-afb7-4d4f-bd90-15635014405e" target="_blank" class="block bg-white p-4 rounded-xl shadow hover:shadow-md transition border">
+            🏅 <span class="font-medium text-blue-700 hover:underline">Google Cloud Skills Boost</span>
+          </a>
+          <a href="https://skillsoft.digitalbadges-eu.skillsoft.com/profile/eu-siminonay446325/wallet#gs.8fiqpd" target="_blank" class="block bg-white p-4 rounded-xl shadow hover:shadow-md transition border">
+            🏅 <span class="font-medium text-blue-700 hover:underline">Skillsoft Learning</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- Contact Form -->
+      <section class="w-full max-w-2xl text-left" data-aos="fade-up" data-aos-delay="400">
+        <h2 class="text-2xl font-bold mb-6 text-center">📬 Contact Me</h2>
+        <form action="https://formspree.io/f/your-id" method="POST" class="space-y-4 bg-white p-6 rounded-xl shadow-md">
+          <div>
+            <label class="block text-sm font-semibold mb-1">Name</label>
+            <input type="text" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold mb-1">Email</label>
+            <input type="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black" />
+          </div>
+          <div>
+            <label class="block text-sm font-semibold mb-1">Message</label>
+            <textarea name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black"></textarea>
+          </div>
+          <button type="submit" class="w-full py-2 bg-black text-white rounded-full hover:bg-gray-800 transition">
+            Send Message
+          </button>
+        </form>
+      </section>
+
+      <!-- Footer -->
+      <footer class="mt-16 text-sm text-gray-400" data-aos="fade-up" data-aos-delay="500">
+        © 2025 Simin Onay. All rights reserved.
+      </footer>
+    </main>
+
+    <!-- AOS Animation Script -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
     <script>
-      function sendEmail() {
-        var name = document.getElementById("name").value;
-        var surname = document.getElementById("surname").value;
-        var message = document.getElementById("message").value;
-        //TODO
-        console.log(
-          "Name: " + name + ", Surname: " + surname + ", Message: " + message
-        );
-      }
+      AOS.init({ duration: 800, once: true });
     </script>
   </body>
 </html>
